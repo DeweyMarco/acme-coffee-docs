@@ -74,14 +74,5 @@
     "socials": {
       "github": "https://github.com/DeweyMarco/acme-coffee-docs"
     }
-  },
-  "fonts": {
-    "heading": {
-      "family": "Playfair Display",
-      "weight": 700
-    },
-    "body": {
-      "family": "Inter"
-    }
   }
 }
