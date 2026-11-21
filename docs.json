@@ -78,5 +78,18 @@
     "socials": {
       "github": "https://github.com/DeweyMarco/acme-coffee-docs"
     }
+  },
+  "api": {
+    "playground": {
+      "display": "interactive"
+    },
+    "examples": {
+      "languages": [
+        "curl",
+        "python",
+        "javascript"
+      ],
+      "prefill": true
+    }
   }
 }
