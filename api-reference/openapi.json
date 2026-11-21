@@ -1,0 +1,88 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Acme Coffee Orders API",
+    "version": "1.0.0",
+    "description": "Browse coffees and place orders."
+  },
+  "servers": [
+    { "url": "https://api.acme-coffee.example/v1" }
+  ],
+  "paths": {
+    "/coffees": {
+      "get": {
+        "summary": "List coffees",
+        "description": "Returns the coffees available this week.",
+        "operationId": "listCoffees",
+        "responses": {
+          "200": {
+            "description": "A list of coffees.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/Coffee" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/orders": {
+      "post": {
+        "summary": "Create an order",
+        "description": "Places a one-time order for one or more bags.",
+        "operationId": "createOrder",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/NewOrder" }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "The order was created.",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Order" }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Coffee": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "example": "house-blend" },
+          "name": { "type": "string", "example": "House Blend" },
+          "roast": { "type": "string", "enum": ["light", "medium", "dark"] },
+          "price_cents": { "type": "integer", "example": 1600 }
+        }
+      },
+      "NewOrder": {
+        "type": "object",
+        "required": ["coffee_id", "quantity"],
+        "properties": {
+          "coffee_id": { "type": "string", "example": "house-blend" },
+          "quantity": { "type": "integer", "minimum": 1, "example": 2 }
+        }
+      },
+      "Order": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "example": "ord_123" },
+          "coffee_id": { "type": "string", "example": "house-blend" },
+          "quantity": { "type": "integer", "example": 2 },
+          "status": { "type": "string", "example": "pending" }
+        }
+      }
+    }
+  }
+}
