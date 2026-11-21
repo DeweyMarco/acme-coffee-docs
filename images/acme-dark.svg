@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="44" viewBox="0 0 220 44">
+  <path d="M6 18h26v12a10 10 0 0 1-10 10h-6A10 10 0 0 1 6 30z" fill="#C8A27A"/>
+  <path d="M32 21h3a5 5 0 0 1 0 10h-3" fill="none" stroke="#C8A27A" stroke-width="3"/>
+  <path d="M13 6c-2 3 2 5 0 8M20 4c-2 3 2 5 0 8M27 6c-2 3 2 5 0 8" fill="none" stroke="#F5E6D3" stroke-width="2.2" stroke-linecap="round"/>
+  <text x="48" y="31" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#F5E6D3">Acme Coffee</text>
+</svg>
