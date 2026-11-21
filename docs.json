@@ -76,6 +76,12 @@
     }
   },
   "styling": {
-    "codeblocks": "dark"
+    "codeblocks": {
+      "theme": {
+        "light": "github-light",
+        "dark": "dracula"
+      }
+    },
+    "eyebrows": "breadcrumbs"
   }
 }
