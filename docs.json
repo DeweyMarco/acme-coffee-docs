@@ -29,7 +29,7 @@
         "group": "Your membership",
         "pages": [
           "subscriptions",
-          "shipping-and-delivery",
+          "shipping",
           "faq"
         ]
       }
@@ -74,11 +74,5 @@
     "socials": {
       "github": "https://github.com/DeweyMarco/acme-coffee-docs"
     }
-  },
-  "redirects": [
-    {
-      "source": "/shipping",
-      "destination": "/shipping-and-delivery"
-    }
-  ]
+  }
 }
