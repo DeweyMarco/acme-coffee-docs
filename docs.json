@@ -74,5 +74,8 @@
     "socials": {
       "github": "https://github.com/DeweyMarco/acme-coffee-docs"
     }
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
   }
 }
