@@ -76,6 +76,12 @@
     }
   },
   "fonts": {
-    "family": "Lora"
+    "heading": {
+      "family": "Playfair Display",
+      "weight": 700
+    },
+    "body": {
+      "family": "Inter"
+    }
   }
 }
