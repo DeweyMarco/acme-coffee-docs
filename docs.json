@@ -54,16 +54,12 @@
       {
         "label": "FAQ",
         "href": "https://acme-coffee-club.mintlify.site/faq"
-      },
-      {
-        "href": "https://acme-coffee-club.mintlify.site/shipping",
-        "label": "Shipping"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Order coffee",
-      "href": "https://acme-coffee-club.mintlify.site/quickstart"
+      "label": "Join the club",
+      "href": "https://acme-coffee-club.mintlify.site/subscriptions"
     }
   },
   "contextual": {
@@ -76,36 +72,7 @@
   },
   "footer": {
     "socials": {
-      "github": "https://github.com/DeweyMarco/acme-coffee-docs",
-      "website": "https://acme-coffee-club.mintlify.site"
-    },
-    "links": [
-      {
-        "header": "Get started",
-        "items": [
-          {
-            "label": "Quickstart",
-            "href": "https://acme-coffee-club.mintlify.site/quickstart"
-          },
-          {
-            "label": "Brewing guides",
-            "href": "https://acme-coffee-club.mintlify.site/brewing/pour-over"
-          }
-        ]
-      },
-      {
-        "header": "Membership",
-        "items": [
-          {
-            "label": "Subscriptions",
-            "href": "https://acme-coffee-club.mintlify.site/subscriptions"
-          },
-          {
-            "label": "FAQ",
-            "href": "https://acme-coffee-club.mintlify.site/faq"
-          }
-        ]
-      }
-    ]
+      "github": "https://github.com/DeweyMarco/acme-coffee-docs"
+    }
   }
 }
