@@ -1,1 +1,7 @@
 /* Acme Coffee custom styles */
+#navbar {
+  background: #FFF8F0;
+}
+#content h2 {
+  color: #6F4E37;
+}
