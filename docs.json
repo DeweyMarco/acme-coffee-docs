@@ -74,5 +74,16 @@
     "socials": {
       "github": "https://github.com/DeweyMarco/acme-coffee-docs"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/delivery",
+      "destination": "/shipping"
+    },
+    {
+      "source": "/holiday",
+      "destination": "/subscriptions",
+      "permanent": false
+    }
+  ]
 }
