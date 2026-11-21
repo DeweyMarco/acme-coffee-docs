@@ -74,5 +74,16 @@
     "socials": {
       "github": "https://github.com/DeweyMarco/acme-coffee-docs"
     }
+  },
+  "appearance": {
+    "default": "dark",
+    "strict": true
+  },
+  "background": {
+    "decoration": "gradient",
+    "color": {
+      "light": "#FFF8F0",
+      "dark": "#1B130E"
+    }
   }
 }
