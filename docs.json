@@ -32,6 +32,10 @@
           "shipping",
           "faq"
         ]
+      },
+      {
+        "group": "API reference",
+        "openapi": "api-reference/openapi.json"
       }
     ],
     "global": {
