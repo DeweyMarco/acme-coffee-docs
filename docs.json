@@ -74,5 +74,9 @@
     "socials": {
       "github": "https://github.com/DeweyMarco/acme-coffee-docs"
     }
+  },
+  "banner": {
+    "content": "☕ **Holiday Blend is back** for December. [See plans](/subscriptions)",
+    "dismissible": true
   }
 }
