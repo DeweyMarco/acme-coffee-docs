@@ -3,14 +3,11 @@
   "theme": "mint",
   "name": "Acme Coffee Club",
   "colors": {
-    "primary": "#6F4E37",
-    "light": "#C8A27A",
-    "dark": "#4B3325"
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
   },
-  "favicon": {
-    "light": "/images/acme-favicon.svg",
-    "dark": "/images/acme-favicon.svg"
-  },
+  "favicon": "/favicon.svg",
   "navigation": {
     "groups": [
       {
@@ -77,9 +74,5 @@
     "socials": {
       "github": "https://github.com/DeweyMarco/acme-coffee-docs"
     }
-  },
-  "logo": {
-    "light": "/images/acme-light.svg",
-    "dark": "/images/acme-dark.svg"
   }
 }
