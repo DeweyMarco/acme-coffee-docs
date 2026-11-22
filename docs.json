@@ -1,0 +1,95 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Acme Coffee Club",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "index",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Brewing guides",
+            "pages": [
+              "brewing/french-press",
+              "brewing/pour-over",
+              "brewing/cold-brew"
+            ]
+          },
+          {
+            "group": "Your membership",
+            "pages": [
+              "subscriptions",
+              "shipping",
+              "faq"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API",
+        "pages": [
+          {
+            "group": "Orders API",
+            "pages": [
+              "api/index",
+              "api/create-order"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Brewing guides",
+          "href": "https://acme-coffee-club.mintlify.site/brewing/french-press",
+          "icon": "mug-hot"
+        },
+        {
+          "anchor": "Membership",
+          "href": "https://acme-coffee-club.mintlify.site/subscriptions",
+          "icon": "box"
+        }
+      ]
+    }
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "FAQ",
+        "href": "https://acme-coffee-club.mintlify.site/faq"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Join the club",
+      "href": "https://acme-coffee-club.mintlify.site/subscriptions"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/DeweyMarco/acme-coffee-docs"
+    }
+  }
+}
