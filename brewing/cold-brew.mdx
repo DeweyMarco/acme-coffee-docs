@@ -16,19 +16,3 @@ description: "Smooth, low-acid coffee for warm days."
 3. Strain and serve over ice.
 
 <Note>Cold brew concentrate keeps in the fridge for up to a week.</Note>
-
-## Scale the recipe
-
-Use this ratio to make any amount of cold brew.
-
-```javascript brew-ratio.js
-// 1 g of coffee for every 10 ml of water
-const RATIO = 10;
-
-function coldBrew(waterMl) {
-  const coffeeGrams = Math.round(waterMl / RATIO);
-  return { coffeeGrams, steepHours: 16 };
-}
-
-console.log(coldBrew(1000)); // { coffeeGrams: 100, steepHours: 16 }
-```

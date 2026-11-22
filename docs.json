@@ -22,12 +22,7 @@
         "pages": [
           "brewing/french-press",
           "brewing/pour-over",
-          {
-            "group": "Cold drinks",
-            "pages": [
-              "brewing/cold-brew"
-            ]
-          }
+          "brewing/cold-brew"
         ]
       },
       {
@@ -79,14 +74,5 @@
     "socials": {
       "github": "https://github.com/DeweyMarco/acme-coffee-docs"
     }
-  },
-  "styling": {
-    "codeblocks": {
-      "theme": {
-        "light": "github-light",
-        "dark": "github-dark"
-      }
-    },
-    "eyebrows": "breadcrumbs"
   }
 }
