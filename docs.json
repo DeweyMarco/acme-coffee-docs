@@ -86,6 +86,7 @@
         "light": "github-light",
         "dark": "github-dark"
       }
-    }
+    },
+    "eyebrows": "breadcrumbs"
   }
 }
