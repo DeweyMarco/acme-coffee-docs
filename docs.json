@@ -20,9 +20,9 @@
       {
         "group": "Brewing guides",
         "pages": [
-          "guides/brewing/french-press",
-          "guides/brewing/pour-over",
-          "guides/brewing/cold-brew"
+          "brewing/french-press",
+          "brewing/pour-over",
+          "brewing/cold-brew"
         ]
       },
       {
@@ -74,11 +74,5 @@
     "socials": {
       "github": "https://github.com/DeweyMarco/acme-coffee-docs"
     }
-  },
-  "redirects": [
-    {
-      "source": "/brewing/:slug*",
-      "destination": "/guides/brewing/:slug*"
-    }
-  ]
+  }
 }
