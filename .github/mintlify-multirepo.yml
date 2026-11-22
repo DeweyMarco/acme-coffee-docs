@@ -1,0 +1,4 @@
+sources:
+  - repo: DeweyMarco/acme-coffee-api-docs
+    destination: api
+    name: API reference
