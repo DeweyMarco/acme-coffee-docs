@@ -1,0 +1,19 @@
+name: Combine docs
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: mintlify-multirepo
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: mintlify/multirepo-action@v1
