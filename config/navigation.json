@@ -1,0 +1,41 @@
+{
+  "groups": [
+    {
+      "group": "Getting started",
+      "pages": [
+        "index",
+        "quickstart"
+      ]
+    },
+    {
+      "group": "Brewing guides",
+      "pages": [
+        "brewing/french-press",
+        "brewing/pour-over",
+        "brewing/cold-brew"
+      ]
+    },
+    {
+      "group": "Your membership",
+      "pages": [
+        "subscriptions",
+        "shipping",
+        "faq"
+      ]
+    }
+  ],
+  "global": {
+    "anchors": [
+      {
+        "anchor": "Brewing guides",
+        "href": "https://acme-coffee-club.mintlify.site/brewing/french-press",
+        "icon": "mug-hot"
+      },
+      {
+        "anchor": "Membership",
+        "href": "https://acme-coffee-club.mintlify.site/subscriptions",
+        "icon": "box"
+      }
+    ]
+  }
+}
