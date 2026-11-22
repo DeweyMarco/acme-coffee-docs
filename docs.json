@@ -28,7 +28,12 @@
       {
         "group": "Your membership",
         "pages": [
-          "subscriptions",
+          "subscriptions"
+        ]
+      },
+      {
+        "group": "Help",
+        "pages": [
           "shipping",
           "faq"
         ]
@@ -45,6 +50,11 @@
           "anchor": "Membership",
           "href": "https://acme-coffee-club.mintlify.site/subscriptions",
           "icon": "box"
+        },
+        {
+          "anchor": "GitHub",
+          "icon": "github",
+          "href": "https://github.com/DeweyMarco/acme-coffee-docs"
         }
       ]
     }
