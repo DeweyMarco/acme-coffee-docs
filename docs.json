@@ -74,5 +74,55 @@
     "socials": {
       "github": "https://github.com/DeweyMarco/acme-coffee-docs"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/kb/shipping",
+      "destination": "/shipping"
+    },
+    {
+      "source": "/kb/shipping-times",
+      "destination": "/shipping"
+    },
+    {
+      "source": "/kb/delivery",
+      "destination": "/shipping"
+    },
+    {
+      "source": "/kb/plans",
+      "destination": "/subscriptions"
+    },
+    {
+      "source": "/kb/membership",
+      "destination": "/subscriptions"
+    },
+    {
+      "source": "/kb/pause",
+      "destination": "/subscriptions"
+    },
+    {
+      "source": "/kb/faq",
+      "destination": "/faq"
+    },
+    {
+      "source": "/kb/help",
+      "destination": "/faq"
+    },
+    {
+      "source": "/kb/start",
+      "destination": "/quickstart"
+    },
+    {
+      "source": "/kb/pour-over",
+      "destination": "/brewing/pour-over"
+    },
+    {
+      "source": "/kb/french-press",
+      "destination": "/brewing/french-press"
+    },
+    {
+      "source": "/kb/cold-brew",
+      "destination": "/brewing/cold-brew"
+    }
+  ]
 }
