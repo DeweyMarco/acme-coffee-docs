@@ -74,5 +74,23 @@
     "socials": {
       "github": "https://github.com/DeweyMarco/acme-coffee-docs"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/hc/en-us/articles/shipping-info",
+      "destination": "/shipping"
+    },
+    {
+      "source": "/hc/en-us/articles/membership-plans",
+      "destination": "/subscriptions"
+    },
+    {
+      "source": "/hc/en-us/articles/cancel-and-pause",
+      "destination": "/subscriptions"
+    },
+    {
+      "source": "/hc/en-us/articles/billing-faq",
+      "destination": "/faq"
+    }
+  ]
 }
