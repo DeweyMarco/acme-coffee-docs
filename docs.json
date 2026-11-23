@@ -85,12 +85,12 @@
       "destination": "/shipping"
     },
     {
-      "source": "/kb/ship-*",
-      "destination": "/shipping"
-    },
-    {
       "source": "/kb/ship-lost-*",
       "destination": "/faq"
+    },
+    {
+      "source": "/kb/ship-*",
+      "destination": "/shipping"
     }
   ]
 }
