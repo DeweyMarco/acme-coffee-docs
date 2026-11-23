@@ -74,15 +74,5 @@
     "socials": {
       "github": "https://github.com/DeweyMarco/acme-coffee-docs"
     }
-  },
-  "redirects": [
-    {
-      "source": "/kb/delivery-tracking",
-      "destination": "/shipping#tracking"
-    },
-    {
-      "source": "/redirect-docs",
-      "destination": "https://www.mintlify.com/docs/create/redirects"
-    }
-  ]
+  }
 }
