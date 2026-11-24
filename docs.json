@@ -32,20 +32,6 @@
           "shipping",
           "faq"
         ]
-      },
-      {
-        "group": "Acme Brewer user guide",
-        "pages": [
-          {
-            "group": "About the Acme Brewer",
-            "root": "brewer/brewer-overview",
-            "pages": [
-              "brewer/set-up-brewer",
-              "brewer/descale-brewer"
-            ]
-          },
-          "brewer/brewer-specifications"
-        ]
       }
     ],
     "global": {
