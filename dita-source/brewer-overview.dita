@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="brewer-overview">
+  <title>About the Acme Brewer</title>
+  <shortdesc>The Acme Brewer makes up to eight cups of coffee and keeps it warm for two hours.</shortdesc>
+  <conbody>
+    <p>Fill the tank, add ground coffee to the basket, and press <uicontrol>Brew</uicontrol>. A full pot takes about six minutes.</p>
+    <section>
+      <title>What's in the box</title>
+      <ul>
+        <li>Acme Brewer base with water tank</li>
+        <li>Glass carafe and lid</li>
+        <li>Reusable mesh filter basket</li>
+        <li>Measuring scoop</li>
+      </ul>
+    </section>
+    <note type="tip">Use filtered water to keep the brewer clean for longer.</note>
+  </conbody>
+</concept>

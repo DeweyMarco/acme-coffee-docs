@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="brewer-specifications">
+  <title>Specifications</title>
+  <shortdesc>Technical details for the Acme Brewer.</shortdesc>
+  <refbody>
+    <properties>
+      <prophead><proptypehd>Item</proptypehd><propvaluehd>Value</propvaluehd></prophead>
+      <property><proptype>Capacity</proptype><propvalue>8 cups (1.2 L)</propvalue></property>
+      <property><proptype>Power</proptype><propvalue>900 W, 120 V</propvalue></property>
+      <property><proptype>Keep-warm time</proptype><propvalue>2 hours</propvalue></property>
+      <property><proptype>Weight</proptype><propvalue>2.1 kg</propvalue></property>
+    </properties>
+  </refbody>
+</reference>

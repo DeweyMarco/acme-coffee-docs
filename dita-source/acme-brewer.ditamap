@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="acme-brewer">
+  <title>Acme Brewer user guide</title>
+  <topicref href="brewer-overview.dita" type="concept">
+    <topicref href="set-up-brewer.dita" type="task"/>
+    <topicref href="descale-brewer.dita" type="task"/>
+  </topicref>
+  <topicref href="brewer-specifications.dita" type="reference"/>
+</map>
